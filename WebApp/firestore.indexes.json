@@ -1,0 +1,105 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Entry",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Title",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Description",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LocationID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "MemberID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Privacy",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "UploadDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "View",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ImagePath",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Location",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "ShortName",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "LocationDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Tag",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Title",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "User",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "ID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Name",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "PhoneNum",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Email",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
